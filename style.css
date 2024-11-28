@@ -1,0 +1,265 @@
+*{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+border:border-box;
+}
+.navbar{
+    height:70px;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height:50px;
+    width:120px;
+}
+.logo{
+    height: 70px;
+    background-image:url(amazon_logo.png);
+    background-size:cover;
+    width:100%;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.adress{
+    color:#CCCCCC;
+    font-size:1rem;
+}
+.location{
+    font-size:0.85rem;
+    color:white;
+    display:flex;
+}
+
+.search{
+    display:flex;
+    height: 40px;
+    width: 620px;
+    background-color:white;
+    align-items:center;
+}
+.search-icon{
+    background-color: coral;
+    width:50px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-input{
+    width:100%;
+    border:none;
+    font-size:2rem;
+}
+span{
+    font-size:0.7rem;
+}
+.nav-sec{
+    font-size:0.85rem;
+    font-weight:700;
+}
+.nav-bar2{
+    background-color: #0f1111;
+    display:flex;
+    color:white;
+    justify-content: space-evenly;
+}
+.un{
+    text-decoration: underline transparent;
+}
+.un:hover{
+    text-decoration: underline red;
+}
+.nav-bar3{
+    background-color:#FFFFFF;
+    height: 50px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.space{
+    background-color: #FFFFFF;
+    height:50px;
+}
+.text1{
+    font-family: Arial;
+}
+.sh{
+    box-shadow:10px 10px 10px;
+}
+.major-box{
+    
+    display:flex;
+    justify-content: space-evenly;
+    height:500px;
+    width:100%;
+}
+.major-box1{
+    width:40px;
+    height:464px;
+}
+.green{
+    color:green;
+}
+.green:hover{
+    text-decoration:underline green;
+}
+.red{
+    background-color: crimson;
+    color: #FFFFFF;
+    height:18px;
+width: 130px;
+padding:3px
+}
+.name{
+    font-size: 30px;
+}
+.b31{
+    padding:10px;
+}
+.b32{
+    padding:10px;
+}
+.b33{
+    display:flex;
+    justify-content: space-evenly;
+}
+.major-box2{
+    width:500px;
+    height:520px;
+    background-image: contain;
+    background-position:center ;
+}
+.major-box3{
+    width:560px;
+    height:555px;
+}
+.major-box4{
+    width:200px;
+    height:462px;
+    padding-left: 20px;
+}
+.orange{
+    background-color:orange;
+    color:white;
+    height:25px;
+width: 150px;
+padding:3px;
+font-size:20px ;
+    border-radius: 10px;
+    text-align: center;
+}
+.dark:hover{
+background-color: chocolate;
+}
+.space1{
+    height:50px;
+}
+.space{
+    height:150px;
+}
+.b{
+    height:250px;
+    width:200px;
+    border-spacing:30px;
+    margin-right: 20px;
+    margin-left:20px;
+}
+.b1{
+    height:110px;
+    width:150px;
+    border-spacing:30px;
+    margin-right: 20px;
+    margin-left:20px; 
+    padding:20px;  
+}
+.products {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.img{
+    max-width:100%;
+    max-height:100%;
+}
+.rightspace{
+    text-indent:20px;
+}
+.customer-review{
+    align-content: center;
+    margin-left: 300px;
+}
+.footer {
+    background-color: #0f1111;
+    color: white;
+    padding: 40px 0;
+    font-size: 14px;
+}
+.fp1{
+    background-color:#37475a;
+    color:white;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.85rem;
+}
+
+.footer-top {
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding:10px;
+    height:280px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #ddd;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ff9900;
+}
+.footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+
+
+
+
